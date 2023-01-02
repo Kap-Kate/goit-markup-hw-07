@@ -395,55 +395,55 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" type="button" data-modal-close>
-          <svg class="modal-close" width="18px" height="18px">
+        <button class="modal__button" type="button" data-modal-close>
+          <svg class="modal__button--close" width="18px" height="18px">
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-        <form name="contact-form" class="modal-form" autocomplete="on">
+        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="form" name="contact-form" autocomplete="on">
           <div class="form-field">
-            <label for="name-user" class="modal-input">Ім'я</label>
-            <div class="modal-icon">
-              <input id="name-user" class="input-modal" type="text" name="name" />
-              <svg class="icon-modal" width="18px" height="18px">
-                <use href="./img/icons.svg#icon-person" class="icon"></use>
+            <label class="form-field__label" for="name-user">Ім'я</label>
+            <div class="form-field__box">
+              <input class="form-field__input" id="name-user" type="text" name="name" />
+              <svg class="form-field__icon" width="18px" height="18px">
+                <use href="./img/icons.svg#icon-person" class="form-field__icon__icon"></use>
               </svg>
             </div>
           </div>
           <div class="form-field">
-            <label for="tel-user" class="modal-input"> Телефон</label>
-            <div class="modal-icon">
-              <input id="tel-user" class="input-modal" type="tel" name="phone-number" />
-              <svg class="icon-modal" width="18px" height="18px">
-                <use href="./img/icons.svg#icon-phone" class="icon"></use>
+            <label for="tel-user" class="form-field__label"> Телефон</label>
+            <div class="form-field__box">
+              <input class="form-field__input" id="tel-user" type="tel" name="phone-number" />
+              <svg class="form-field__icon" width="18px" height="18px">
+                <use href="./img/icons.svg#icon-phone" class="form-field__icon__icon"></use>
               </svg>
             </div>
           </div>
           <div class="form-field">
-            <label for="mail-user" class="modal-input"
-              >Пошта</label>
-              <div class="modal-icon">
-                <input id="mail-user" class="input-modal" type="email" name="email" />
-                <svg class="icon-modal" width="18px" height="18px">
-                  <use href="./img/icons.svg#icon-email" class="icon"></use>
-                </svg>
-              </div>
+            <label class="form-field__label" for="mail-user">Пошта</label>
+            <div class="form-field__box">
+              <input class="form-field__input" id="mail-user" type="email" name="email" />
+              <svg class="form-field__icon" width="18px" height="18px">
+                <use href="./img/icons.svg#icon-email" class="form-field__icon__icon"></use>
+              </svg>
+            </div>
           </div>
-          <div class="form-field comment">
-            <label for="coment-user" class="modal-input comment">Коментар</label>
-            <textarea id="coment-user"
-              class="input-modal text"
+          <div class="form-field__comment">
+            <label class="form-field__label" for="coment-user">Коментар</label>
+            <textarea
+              class="form-field__input form-field__text"
+              id="coment-user"
               name="feedback"
               placeholder="Введіть текст"
             ></textarea>
           </div>
-          <label class="text-agree">
-            <input class="checkbox" type="checkbox" name="mailing" />
-            <div class="icon-agree"></div>
-            Погоджуюся з розсилкою та приймаю<a href="#" class="link-agree">Умови договору</a>
+          <label class="agree">
+            <input class="agree__checkbox" type="checkbox" name="mailing" />
+            <div class="agree__icon"></div>
+            Погоджуюся з розсилкою та приймаю<a href="#" class="agree__link">Умови договору</a>
           </label>
-          <button type="submit" class="send-button">Відправити</button>
+          <button class="send-button" type="submit">Відправити</button>
         </form>
       </div>
     </div>
