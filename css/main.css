@@ -1,0 +1,15 @@
+/*header*/
+.logo {
+  color: var(--color-akcent);
+  margin-right: 93px;
+}
+.logo__logo-studio {
+  color: var(--color-logo);
+}
+.logo, .logo__logo-studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}/*# sourceMappingURL=main.css.map */
