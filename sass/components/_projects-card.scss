@@ -54,8 +54,12 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__overlay:focus .projects-card__text {
+    &__overlay:focus &__text {
         transform: translateY(0);
         opacity: 0.9;
     }
+    .projects-list__item:hover &__text {
+     transform: translateY(0);
+     opacity: 0.9;
+ }
 }
